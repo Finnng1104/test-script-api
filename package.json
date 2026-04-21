@@ -1,0 +1,23 @@
+{
+  "name": "bullbit-wss-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src/tests",
+    "test:public": "jest src/tests/public-api.test.js",
+    "test:trade": "jest src/tests/trading-api.test.js",
+    "test:ws": "jest src/tests/connection.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.15.0",
+    "dotenv": "^17.4.2",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
